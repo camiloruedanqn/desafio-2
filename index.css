@@ -1,0 +1,58 @@
+
+body{
+    background-color: #582f0e;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+header{
+    background-color: #414833;
+    border-radius: 10px;
+    height: 115px;
+}
+
+.logo{
+    height: 90px;
+    width: 90px;
+    float: left;
+    padding: 10px 0px 25px 50px;
+    border-radius: 100%;
+
+}
+.lista{
+    float: right;
+    list-style: none;
+    margin-right: 35px;
+   
+ 
+
+}
+nav ul li{
+    margin-right: 35px;
+    float: left;
+    padding: 25px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f1ece2;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+
+   
+
+    
+
+    
+
+
+    
+
+}
+    
+    
