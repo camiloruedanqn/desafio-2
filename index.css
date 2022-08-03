@@ -17,20 +17,25 @@ header{
     height: 90px;
     width: 90px;
     float: left;
-    padding: 10px 0px 25px 50px;
+    padding: 10px 0px 25px 70px;
     border-radius: 100%;
 
+
+
 }
+
 .lista{
     float: right;
     list-style: none;
     margin-right: 35px;
+    font-weight: 80px;
    
  
 
 }
+
 nav ul li{
-    margin-right: 35px;
+    margin-right: 55px;
     float: left;
     padding: 25px 0;
 }
@@ -40,8 +45,67 @@ nav ul li a{
     color: #f1ece2;
     font-weight: bold;
     font-size: 18px;
+    gap: 60px;
 
 }
+
+.divinicio{
+
+   
+    width:100% ;
+    background-color: #83552d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgcaramel{
+    width: 35%;
+    border-radius: 100%;
+    
+}
+.containerinicio{
+    width: 35%;
+    font-size: 20px;
+    font-weight: 40px;
+    font-family: monospace;
+    margin: 50px;
+
+}
+
+.botones{
+    display: flex;
+   gap: 25px;
+   font-weight: 300px;
+}
+
+.botoninicio{
+    border-radius: 25px;
+    border-style: none;
+    width: 35%;
+    
+}
+.portada{
+    margin: 30px;
+}
+
+.parrafo{
+    background-color:  #83552d;
+    padding: 25px;
+    margin:10px 10px ;
+    font-family:  monospace;
+    font-weight: 300;
+    font-size: 20px;
+    
+  
+
+}
+.descripcionparrafo{
+    justify-content: center;
+    align-items: center;
+}
+
 
 
    
