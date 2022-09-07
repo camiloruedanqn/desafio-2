@@ -1,10 +1,9 @@
 
 body{
    
-    
   
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: Shadows Into Light;
     width: 100%;
     height: 100%;
 }
@@ -31,10 +30,19 @@ header{
     list-style: none;
     margin-right: 35px;
     font-weight: 80px;
-   
- 
-
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 15px;
+    background-color: #656D4A;
+    font-weight: 800px;
 }
+
+.lista:hover{
+    background-color: #A4AC86;
+    transition: all;
+}
+
+
 
 nav ul li{
     margin-right: 55px;
@@ -53,7 +61,6 @@ nav ul li a{
 
 .divinicio{
 
-    
     width:100% ;
     background-color: #83552d;
     display:flex;
@@ -65,28 +72,44 @@ nav ul li a{
 .imgcaramel{
     width: 35%;
     border-radius: 100%;
-    
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  
 }
 .containerinicio{
-    width: 35%;
-    font-size: 20px;
-    font-weight: 40px;
-    font-family: monospace;
-    margin: 50px;
+    width: 50%;
+    font-weight: 80px;
+    margin: 40px;
     font-style: oblique;
+    background-color: #A68A64;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
 
+.containerinicio h1{
+    font-size: 80px;
+   
+    border-radius: 15px;
+}
+
+.containerinicio p{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 30px;
 }
 
 .botones{
     display: flex;
    gap: 25px;
    font-weight: 300px;
+   font-size: 40px;
 }
+
 
 .botoninicio{
     border-radius: 25px;
-    border-style: none;
-    width: 35%;
+    border-style: ;
+    width: 50%;
+    height: 40px;
     
 }
 .portada{
@@ -94,23 +117,32 @@ nav ul li a{
 }
 
 .parrafo{
-    background-color:  #83552d;
-    padding: 25px 25px 25px 25px;
    
-    font-family:  monospace;
-    font-weight: 300;
-    font-size: 20px;
+    padding: 20px 20px 0 20px;
+   
     
-  
+    font-weight: 900;
+    font-size: 25px;
 
 }
-.descripcionparrafo{
-   text-align: center;
+.parrafos-flex{
+   display: flex;
+   justify-content: space-around;
+   margin: 0;
+   padding:0;
+
+}
+
+.parrafos-flex img{
+    width: 150px;
+    height: 150px;
     justify-content: center;
     align-items: center;
+    align-self: center;
     
-
 }
+
+
 
 .title-container{
     text-align: center;
@@ -119,12 +151,22 @@ nav ul li a{
     text-align: center;
    padding: 10px 10px;
    font-style: oblique;
-
-    
+   background-color: white;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
   
-
-
+    display: flex;
 }
+
+
+.title-img{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
 .container-card{
     width: 100%;
     max-width: 1200px;
@@ -133,6 +175,7 @@ nav ul li a{
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    
 
 }
 
@@ -145,6 +188,7 @@ nav ul li a{
     margin:20px;
     text-align: center;
     transition: all 0.25s;
+    background-color: #A68A64;
 
 }
 
@@ -162,16 +206,19 @@ nav ul li a{
 
 }
 .container-card .card h3{
-    font-weight: 280px;
+    font-weight: 900px;
     font-size: 25px;
     font-style: oblique;
+    background-color: #A68A64;
+  
 }
 
 .container-card .card p{
-    padding: 0 1rem;
+    padding: 0 ;
     
-    font-weight: 300;
+    font-weight: 700;
     font-size: 20px;
+    background-color: #A68A64;
 
 
 }
@@ -181,6 +228,8 @@ nav ul li a{
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin: 10px 0px 20px 0px;
+ 
    
  
 }
@@ -202,18 +251,19 @@ nav ul li a{
     margin: 10px;
     padding: 10px 10px;
     width: 330px;
-    height: 330px;
+    height: 360px;
     
     
 }
 .container-footer h2{
-    font-weight: 1000;
-    font-size: 20px;
+    font-weight: 2000;
+    font-size: 30px;
     font-style:initial;
 
 }
 .container-footer p{
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 500;
 }
 .container-img img{
     width:455px;
