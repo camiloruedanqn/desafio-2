@@ -112,6 +112,13 @@ nav ul li a{
     height: 40px;
     
 }
+
+.botoninicio:hover {
+     background-color: #656d4a;
+
+ }
+
+
 .portada{
     margin: 30px;
 }
@@ -272,8 +279,147 @@ nav ul li a{
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 
 }
+/* 
+<!--login style--> */
+
+.bodyLogin{
+    background:url(./img/fondo-cafeteria-blanco-negro_125540-817.jpg);
+}
+
+.loginSection {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+     /* background-image: url(./img/marco-del-diseño-de-la-cafetería-fondo-estilizado-del-café-de-la-pizarra-55470374.jpg);  */
+     border-radius: 10%;
+     width: 500px;
+     margin: 40px 30px 30px 350px;
+     border-color: black;
+     box-shadow: black 50px;
+     background-color: white;
+
+   
+     
+    
+
+}
+   
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
 
 
+.formLogin {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;   
+}
+
+.formLogin a {
+    color: black;
+}
+
+.textLogin{
+    background-color: white;
+    font-size: 40px;  
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.loginSection hr{
+    height: 10px;
+    background-color: black;
+}
+
+.loginRecuerdame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+}
+
+.loginCheckbox{
+    width: 4rem;
+    height: 5rem;
+    font-size: 40px;    
+}
+
+input {
+    width: 25rem;
+    height: 5rem;
+    display: flex;
+    background: none;
+    outline: 0px;
+   
+    font-size: 25px;    
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    /* border: none; */
+    border-radius: 30px;
+  
+}
+
+.formLogin :nth-child(3) {
+    color:  black;
+    text-decoration: none;
+}
+
+.button {
+    margin: 10px;
+    width: 9rem;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: var(--clr4);
+    border-radius: 20px;
+   
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    background-color: rgb(85, 203, 120);
+    transition : all 0,3s linear;
+    opacity: 10;
+}
+
+button{
+    background-color: var(--clr4);
+    border: 0px;
+    outline: none;
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    transition : all 0,3s linear;
+    border-radius: 25px;
+}
+
+button:hover{
+    background-color: rgb(85, 203, 120);
+    transition : all 0,3s linear;
+    opacity: 10;
+}
+
+::placeholder{
+    color:  rgb(85, 203, 120);
+}
 
 
     
