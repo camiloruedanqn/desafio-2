@@ -430,8 +430,80 @@ button:hover{
     padding-top: 30px;
 }
 
+/* contacto */
 
+.formulario-contacto-container {
+    max-width: 1300px;  
+    margin: 40px 300px 0 300px;
     
+}
+.formulario-contacto{ 
+    max-width: 1300px;  
+    width: 500px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 20px;
+    font-size: 35px;
+    font-style: 3em;  
+    margin: 0 100px 0 90px;
+    
+}
+
+.formularioContacto{    
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding: 10px 0 5px 0;
+    
+        
+    
+}
+
+.formularioContacto h1{
+    font-size: 45px;
+    font-style: 3em; 
+}
+
+textarea{
+    min-width: 400px;
+    min-height: 120px;
+    max-width: 1300px;
+    max-height: 120px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+
+.btn-form{    
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.btn-form:hover{
+    background-color: rgb(85, 203, 120);
+    transition : all 0,3s linear;
+    opacity: 10;
+}
+
+.botom-container-formulario{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
 
 
     
