@@ -513,29 +513,41 @@ textarea{
 
 footer{
     width: 100%;
-    padding: 50px, 60px;
-    background-image: url(./img/fondo-cafeteria-blanco-negro_125540-817.jpg);
-   
+    height: 100%;
+    background-color: #A68A64;
+
+    /* background-image: url(./img/fondo-cafeteria-blanco-negro_125540-817.jpg);
+    */
 }
 
  .container-footer{
+   display: flex;
+   background-color: #A68A64;
+
    
-    display: flex;
-    justify-content: space-around;
+    
 
    
     
    
 }
 
-.box-footer{
+ .box-footer{
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 10px 70px ;
+    background-color: #A68A64;
+    border: white solid 7px;
 } 
 
 .box-footer img{
-    width: 200px;
+    width: 300px;
+    border-radius:100%;
+    margin: 0;
+    padding: 0;
+    
+    
+   
 }
 
 .box-footer .terminoscondiciones-footer{
@@ -548,23 +560,19 @@ footer{
 
 .box-footer a{
     color: black;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 300;
+   
 }
 
 .box-footer a:hover{
-    opacity: 0.8;
+    opacity:   0.8;
+
 }
 
-.box-footer h2{
-    margin-bottom: 30px;
-    font-weight: 700;
-}
 
-.box-footer a .fab{
-    font-size: 20px;
-}
+
+
 
 .box-copyrigth{
     max-width: 1300px;
@@ -583,4 +591,4 @@ footer{
     height: 1px;
     background-color: black;
 }
-     */ */
+     */ */ */
